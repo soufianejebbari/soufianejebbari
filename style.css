@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=Indie+Flower&family=Montserrat:wght@200;400&display=swap');
+body {
+  line-height:15px;
+  font-size:15px;
+  color:rgb(41, 36, 36);
+  font-family:'Cairo', sans-serif;
+  background-color:#2c3e50;
+
+}
+
+h1 {
+  color:#131112f3;
+  font-size:30px;
+  font-family:'Montserrat', sans-serif;
+}
+
+h2  {
+  color: black;
+}
+
+a:hover {
+  background-color:rgb(77, 115, 185);
+}
+
+.img-circle{
+  border-radius: 50%;
+  border: 5px solid rgb(44, 97, 175);
+}
+
+.container{
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border: 5px solid rgb(214, 218, 217);
+  box-shadow: 1px 1px 10px rgb(232, 233, 236);
+  width: 500px;
+  margin: 12px auto;
+}
+
+.social-network > ul {
+
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border: 5px solid rgb(214, 218, 217);
+  box-shadow: 1px 1px 10px rgb(232, 233, 236);  width: 500px;
+  width: 500px;
+  margin: 12px auto;
+}
+
+.list-inline > li {
+  font-size:20px;
+  display: inline-block;
+  padding: 0px 20px;
+  width: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .social-network{
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .social-network {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .social-network {
+    width: 300px;
+  }
+}
